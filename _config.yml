@@ -37,6 +37,9 @@ navigation:
   - title: Music
     url: /music/
     desc: Music
+  # - title: Blog
+  #   url: /blog/
+  #   desc: Blog
   # - title: Work
   #   url: /work/
   #   desc: Work Experience
