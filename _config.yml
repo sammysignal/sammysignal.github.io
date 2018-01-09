@@ -69,6 +69,3 @@ exclude:
   - vendor
 gems:
   - jekyll-paginate
-
-
-theme: jekyll-theme-minimal
