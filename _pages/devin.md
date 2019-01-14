@@ -1,7 +1,5 @@
 ---
-# layout: page
-title: Devin
-desc: Devin Soundboard
+layout: empty
 permalink: /devin/
 ---
 
