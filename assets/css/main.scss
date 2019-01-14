@@ -63,3 +63,31 @@
 .music-item {
   height: 160px;
 }
+
+
+/* Devin Soundboard */
+
+#devin-soundboard {
+  text-align: center;
+}
+
+#devin-table {
+  position: absolute;
+  left: 0;
+  margin: 30px;
+}
+
+td {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  border: 5px solid black;
+  text-align: center;
+  width: 19.5%;
+  height: 50px;
+  cursor: pointer;
+}
+
+.hidden-audio {
+  display: none;
+}
+
