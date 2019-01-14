@@ -22,7 +22,7 @@ permalink: /devin/
       Your browser does not support the audio element.
     </audio>
   </div> -->
-  <table id="devin-table">
+<!--   <table id="devin-table">
     <tr>
       <td>Hey sesi</td>
       <td>Oh hey!</td>
@@ -66,20 +66,59 @@ permalink: /devin/
       <td>Dang luna!</td>
     </tr>
     <tr>
-      <td>Me so corny</td>
       <td>Maaaaaaane!</td>
       <td>Do my supa handles</td>
       <td>It’s all about those garbage buckets</td>
       <td>What’s gucci</td>
+      <td>What’s good for tonight</td>
     </tr>
     <tr>
-      <td>What’s good for tonight</td>
       <td>Doin work</td>
       <td>I go hard in the paint</td>
-      <td>My main man __</td>
-      <td>You seen die haard?</td>
     </tr>
-  </table>
+  </table> -->
+
+
+<div id="devin-table">
+  <div>Hey sesi</div>
+  <div>Oh hey!</div>
+  <div>Beast a la beast</div>
+  <div>How you doin big guy?</div>
+  <div>Really proud of you</div>
+  <div>Buy me a drank</div>
+  <div>That’s whats up</div>
+  <div>Let’s get after it</div>
+  <div>We be hood hoppin'</div>
+  <div>What the deal</div>
+  <div>My waistline is furious</div>
+  <div>I’m gonna go freshen up</div>
+  <div>Hi Mema</div>
+  <div>Quit yo whinin foo</div>
+  <div>I’m nice like that</div>
+  <div>Straight flexin'</div>
+  <div>Shit dawg</div>
+  <div>I aint playin</div>
+  <div>Oh they dont play here</div>
+  <div>Got em!</div>
+  <div>Cross you up</div>
+  <div>Oh he wet</div>
+  <div>Don’t hurt me!</div>
+  <div>I’d rather see you out there shaking that thang</div>
+  <div>Do your thang girl</div>
+  <div>I got two phones</div>
+  <div>We got this</div>
+  <div>Rise and shine!</div>
+  <div>Wakey wakey!</div>
+  <div>Dang luna!</div>
+  <div>Maaaaaaane!</div>
+  <div>Do my supa handles</div>
+  <div>It’s all about those garbage buckets</div>
+  <div>What’s gucci</div>
+  <div>What’s good for tonight</div>
+  <div>Doin work</div>
+  <div>I go hard in the paint</div>
+</div>
+
 </body>
 
 {:/}

@@ -72,19 +72,28 @@
 }
 
 #devin-table {
-  position: absolute;
+  font-size: 18pt;
   left: 0;
   margin: 30px;
-}
+  position: absolute;
 
-td {
-  font-family: "Comic Sans MS", Georgia, serif;
-  font-weight: bold;
-  border: 5px solid black;
-  text-align: center;
-  width: 19.5%;
-  height: 50px;
-  cursor: pointer;
+  div {
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    float: left;
+    font-family: "Comic Sans MS", Georgia, serif;
+    font-weight: bold;
+    height: 75px;
+    margin: 3px;
+    text-align: center;
+    width: 307px;
+
+    // flex stuff
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .hidden-audio {

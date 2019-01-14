@@ -16,7 +16,6 @@ function playSound(path) {
   obj.preLoad = true;
   obj.controls = true;
   obj.className = "hidden-audio";
-  document.body.append(obj);
   obj.play();
 
   return obj;
@@ -47,26 +46,21 @@ function onClick(e) {
   audioObject = playSound(filePath);
 
   audioObject.addEventListener("ended", function(){
-    clickedElement.style.backgroundColor = 'initial';
+    clickedElement.style.backgroundColor = '';
   });
 }
 
 
 function addEventListeners() {
-  var tds = document.querySelectorAll('td');
-  for (var i = 0; i < tds.length; i++) {
-    tds[i].onclick = onClick;
+  var divs = document.querySelectorAll('#devin-table div');
+  for (var i = 0; i < divs.length; i++) {
+    divs[i].onclick = onClick;
   }
 }
 
 function setUpSoundboard() {
   addEventListeners();
   document.body.style.backgroundImage = "url('/assets/img/devin/devin.jpg')";
-  setInterval(function(){
-    document.querySelectorAll('.hidden-audio').forEach(function(item){
-      item.remove();
-    })
-  }, 10000)
 }
 
 
