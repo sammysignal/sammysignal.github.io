@@ -14,7 +14,7 @@ permalink: /about/
 
 {::nomarkdown}
 <figure class="site-profile">
-    <img src="{{ site.baseurl }}/assets/img/turingMachine.gif">
+    <img src="{{ site.baseurl }}/assets/img/Turing_machine_Scan.jpg">
 </figure>
 {:/}
 
