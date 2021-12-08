@@ -23,3 +23,6 @@ gem "github-pages", group: :jekyll_plugins
 # group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
+
+# Redirect from: https://github.com/jekyll/jekyll-redirect-from
+gem 'jekyll-redirect-from'
