@@ -1,6 +1,7 @@
 ---
+layout: blank
 permalink: /math-time/
-title: math-time
+title: Math Time!
 ---
 
 {::nomarkdown}
