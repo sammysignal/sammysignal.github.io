@@ -1,7 +1,7 @@
 
 const PERSON_TEMPLATE = '<tr class="person" id="person-{id}"> \
                             <td>Person {id}</td> \
-                            <td><input class="name" value="Person {id}"></input></td> \
+                            <td><input class="name" placeholder="Person {id}"></input></td> \
                             <td><input class="hours"></input></td> \
                             <td class="payout"></td> \
                         </tr>';
