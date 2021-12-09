@@ -31,7 +31,7 @@ title: Math Time!
       <td class="payout"></td>
     </tr>
     <tr class="person" id="person-2">
-      <td>Person 1</td>
+      <td>Person 2</td>
       <td><input class="name" placeholder="Person 2 Name (optional)"></input></td>
       <td><input class="hours" placeholder="Person 2 Hours Worked"></input></td>
       <td class="payout"></td>
