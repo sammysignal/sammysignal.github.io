@@ -1,5 +1,5 @@
 ---
-layout: blank
+layout: empty
 permalink: /math-time/
 title: Math Time!
 ---
