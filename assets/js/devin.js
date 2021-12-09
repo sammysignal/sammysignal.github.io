@@ -45,7 +45,7 @@ function onClick(e) {
   var filePath = getFilePathFromText(itemText);
   audioObject = playSound(filePath);
 
-  audioObject.addEventListener("ended", function(){
+  audioObject.addEventListener("ended", function () {
     clickedElement.style.backgroundColor = '';
   });
 }
@@ -68,9 +68,9 @@ function onLoad() {
   if (window.attachEvent) {
     window.attachEvent('onload', setUpSoundboard);
   } else {
-    if(window.onload) {
+    if (window.onload) {
       var curronload = window.onload;
-      var newonload = function(evt) {
+      var newonload = function (evt) {
         curronload(evt);
         setUpSoundboard(evt);
       };
