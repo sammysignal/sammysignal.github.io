@@ -1,0 +1,36 @@
+{
+  "prompts": [
+    {
+      "prompt": "What are you doing?",
+      "n": 0
+    },
+    {
+      "prompt": "Where did you go?",
+      "n": 0
+    },
+    {
+      "prompt": "You say the strangest things.",
+      "n": 0
+    },
+    {
+      "prompt": "What's on your mind?",
+      "n": 2
+    },
+    {
+      "prompt": "What happens in France?",
+      "n": 2
+    },
+    {
+      "prompt": "You are very cool!",
+      "n": 2
+    },
+    {
+      "prompt": "Do you have any fun date ideas?",
+      "n": 1
+    },
+    {
+      "prompt": "Do you have any fun date ideas?",
+      "n": 1
+    }
+  ]
+}
