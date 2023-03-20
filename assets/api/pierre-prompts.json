@@ -1,11 +1,11 @@
 {
   "prompts": [
     {
-      "prompt": "What are you doing?",
+      "prompt": "What are you up to today?",
       "n": 0
     },
     {
-      "prompt": "Where did you go?",
+      "prompt": "What did you do yesterday?",
       "n": 0
     },
     {
@@ -13,7 +13,7 @@
       "n": 0
     },
     {
-      "prompt": "Who are you?",
+      "prompt": "How do you define yourslef?",
       "n": 0
     },
     {
@@ -29,15 +29,15 @@
       "n": 2
     },
     {
-      "prompt": "Are you proud to be a peanut?",
+      "prompt": "You are a proud peanut.",
       "n": 2
     },
     {
-      "prompt": "Do you have any fun date ideas?",
+      "prompt": "There is so much to tell.",
       "n": 1
     },
     {
-      "prompt": "Do you have any fun date ideas?",
+      "prompt": "Interesting story, Pierre!",
       "n": 1
     }
   ]
