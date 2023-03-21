@@ -1,6 +1,62 @@
 {
   "prompts": [
     {
+      "prompt": "What did you eat for breakfast?"
+    },
+    {
+      "prompt": "Do you like animals?"
+    },
+    {
+      "prompt": "Do you like cooking?"
+    },
+    {
+      "prompt": "Do you like technology?"
+    },
+    {
+      "prompt": "Do you have friends?"
+    },
+    {
+      "prompt": "Do you play games?"
+    },
+    {
+      "prompt": "Do you have a pet?"
+    },
+    {
+      "prompt": "Where do you live?"
+    },
+    {
+      "prompt": "What do you think of music?"
+    },
+    {
+      "prompt": "Do you like taking pictures?"
+    },
+    {
+      "prompt": "What is the weather like today?"
+    },
+    {
+      "prompt": "Do you prefer fiction or nonfiction literature?"
+    },
+    {
+      "prompt": "What do you wear?"
+    },
+    {
+      "prompt": "What ideas do you have?"
+    },
+    {
+      "prompt": "Do you travel outside of France?"
+    },
+    {
+      "prompt": "Do you like to cook?"
+    },
+    {
+      "prompt": "Do you know any interesting facts?"
+    },
+    {
+      "prompt": "What is the best thing about France?"
+    }
+  ]
+  "prompts-v1": [
+    {
       "prompt": "What are you up to today?",
       "n": 0
     },
