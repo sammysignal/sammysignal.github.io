@@ -2,6 +2,11 @@
   "prompts": [
     {
       "prompt": "Who are you?"
+    }
+  ],
+    "prompts": [
+    {
+      "prompt": "Who are you?"
     },
     {
       "prompt": "What did you eat for breakfast?"
