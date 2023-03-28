@@ -5,6 +5,6 @@
     "temperature": 0.7,
     "max_tokens": 70,
     "n": 1,
-    "stop": "\n",
+    "stop": "\n"
   }
 }
