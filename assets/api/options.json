@@ -1,3 +1,10 @@
 {
-  "testing": true
+  "testing": true,
+  "openaiCompletionParams": {
+    "model": "davinci:ft-personal-2023-03-21-04-04-59",
+    "temperature": 0.7,
+    "max_tokens": 70,
+    "n": 1,
+    "stop": "\n",
+  }
 }
