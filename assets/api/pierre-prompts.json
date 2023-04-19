@@ -1,10 +1,10 @@
 {
-  "prompts": [
+  "prompts-1": [
     {
       "prompt": "Do you travel?"
     }
   ],
-  "prompts-v2": [
+  "prompts": [
     {
       "prompt": "Who are you?"
     },
