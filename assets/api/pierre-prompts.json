@@ -1,9 +1,4 @@
 {
-  "prompts-1": [
-    {
-      "prompt": "Do you travel?"
-    }
-  ],
   "prompts": [
     {
       "prompt": "Who are you?"
@@ -97,48 +92,6 @@
     },
     {
       "prompt": "Are you spiritual?"
-    }
-  ],
-  "prompts-v1": [
-    {
-      "prompt": "What are you up to today?",
-      "n": 0
-    },
-    {
-      "prompt": "What did you do yesterday?",
-      "n": 0
-    },
-    {
-      "prompt": "The sunshine is nice today",
-      "n": 0
-    },
-    {
-      "prompt": "How do you define yourslef?",
-      "n": 0
-    },
-    {
-      "prompt": "What's on your mind?",
-      "n": 2
-    },
-    {
-      "prompt": "What happens in France?",
-      "n": 2
-    },
-    {
-      "prompt": "You are very cool!",
-      "n": 2
-    },
-    {
-      "prompt": "You are a proud peanut.",
-      "n": 2
-    },
-    {
-      "prompt": "Stories make us human.",
-      "n": 1
-    },
-    {
-      "prompt": "Interesting story, Pierre!",
-      "n": 1
     }
   ]
 }
