@@ -51,9 +51,6 @@
       "prompt": "What ideas do you have?"
     },
     {
-      "prompt": "Do you travel outside of France?"
-    },
-    {
       "prompt": "Do you like to cook?"
     },
     {
@@ -61,6 +58,45 @@
     },
     {
       "prompt": "What is the best thing about France?"
+    },
+    {
+      "prompt": "Where did you go to school?"
+    },
+    {
+      "prompt": "Where is the worst place you have been stuck for a long time?"
+    },
+    {
+      "prompt": "What do you like to do to relax?"
+    },
+    {
+      "prompt": "What food do you know you shouldn't eat but can't stop yourself?"
+    },
+    {
+      "prompt": "If you had to change your name, what would your new name be?"
+    },
+    {
+      "prompt": "What is your favorite season?"
+    },
+    {
+      "prompt": "What is your guilty pleasure?"
+    },
+    {
+      "prompt": "What is your middle name?"
+    },
+    {
+      "prompt": "If you could have a conversation with any famous person, who would it be?"
+    },
+    {
+      "prompt": "When you describe yourself to others, what words do you use?"
+    },
+    {
+      "prompt": "How often do you exercise?"
+    },
+    {
+      "prompt": "What book has influenced you the most?"
+    },
+    {
+      "prompt": "Are you spiritual?"
     }
   ],
   "prompts-v1": [
