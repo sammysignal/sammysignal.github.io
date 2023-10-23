@@ -11,11 +11,11 @@ permalink: /chess/
 <script src="{{ site.baseurl }}/assets/js/chess/chess-old.js"></script>
 
 <!-- please don't hurt me, i'm lazy -->
-<center>
+<div style="text-align: center;">
 <!--   <div id="board" style="width: 400px"></div> -->
 <!-- <script src="js/chess.js"></script>
  -->
-  <div id="board" style="width: 400px"></div>
+  <div id="board" style="width: 400px; margin: auto;"></div>
   <div style="height: 10px;"></div>
   <button onClick="restart()" style="font-family: Lato, serif;">Restart</button>
   <button onClick="toggle()" style="font-family: Lato, serif;">Grey Squares</button>
@@ -23,7 +23,7 @@ permalink: /chess/
   <p id="win" style="display: none;">You Win!</p>
   <p id="lose" style="display: none;">You Lose!</p>
   <p id="draw" style="display: none;">It's a Draw!</p>
-</center>
+</div>
 
 <script src="{{ site.baseurl }}/assets/js/chess/getMove.js"></script>
 <script src="{{ site.baseurl }}/assets/js/chess/player.js"></script>
