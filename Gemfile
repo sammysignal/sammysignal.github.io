@@ -26,3 +26,5 @@ gem "github-pages", group: :jekyll_plugins
 
 # Redirect from: https://github.com/jekyll/jekyll-redirect-from
 gem 'jekyll-redirect-from'
+
+gem "webrick", "~> 1.8"
