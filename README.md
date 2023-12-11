@@ -1,5 +1,7 @@
 # sammysignal.github.io
-This is the code for my personal website. It is hosted using the following technologies:
+This is the code for my personal website, which can be viewed at [sameermehra.com](https://sameermehra.com/)
+
+It is generated using the following technologies:
 
  - [GitHub Pages](https://pages.github.com/)
  - [Jekyll](https://github.com/jekyll/jekyll) - which is built right into github pages. It uses the [jackal](https://github.com/clenemt/jackal) theme.
