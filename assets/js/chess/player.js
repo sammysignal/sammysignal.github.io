@@ -1,3 +1,13 @@
+async function showWinningAnimation() {
+  await loadConfettiPreset(tsParticles);
+
+  await tsParticles.load({
+      id: "tsparticles",
+      options: {
+          preset: "confetti",
+      },
+  });
+}
 
 var historyToPGN = function(history) {
   var pgn = "1."
@@ -27,6 +37,7 @@ var checkGameOver = function() {
     var turn = game.fen().split(' ')[1];
     if (turn == 'b') {
       document.getElementById("win").style.display = "block";
+      showWinningAnimation();
       return true;
     }
     else {
@@ -62,7 +73,7 @@ var onDrop = function(source, target) {
       console.log(historyToPGN(game.history()));
     }
     //makeIntelligentMove();
-    
+
     makeBestMove();
     board.position(game.fen());
 

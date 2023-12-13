@@ -20,11 +20,12 @@ permalink: /chess/
   <button onClick="restart()" style="font-family: Lato, serif;">Restart</button>
   <button onClick="toggle()" style="font-family: Lato, serif;">Grey Squares</button>
   <button onClick="undo()" style="font-family: Lato, serif;">Undo Move</button>
-  <p id="win" style="display: none;">You Win!</p>
-  <p id="lose" style="display: none;">You Lose!</p>
-  <p id="draw" style="display: none;">It's a Draw!</p>
+  <h1 id="win" style="display: none;">You Win!</h1>
+  <h1 id="lose" style="display: none;">You Lose!</h1>
+  <h1 id="draw" style="display: none;">It's a Draw!</h1>
 </div>
 
 <script src="{{ site.baseurl }}/assets/js/chess/getMove.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-confetti@3.0.0/tsparticles.preset.confetti.bundle.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/chess/player.js"></script>
 

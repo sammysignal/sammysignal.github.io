@@ -37,6 +37,9 @@ navigation:
   - title: Music
     url: /music/
     desc: Music
+  - title: Chess
+    url: /chess/
+    desc: Chess
   # - title: Blog
   #   url: /blog/
   #   desc: Blog
