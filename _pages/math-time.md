@@ -11,26 +11,37 @@ title: Math Time!
 	<script src="/assets/js/math-time.js"></script>
 </head>
 <body>
+  <div style="margin: 0 auto;max-width: 1000px;padding: 5%;">
+    <h1>Restaurant Server's Tip Calculator</h1>
+    <p>This application is deigned specifically for cases where a sum of money needs to be divided evenly to a group of employees where every person has the same hourly rate but they worked a different number of hours.</p>
+    <p>To use, simply enter the total amount of money, followed by the number of hours worked for each employee. The payouts on the right will be automatically generated.</p>
+  </div>
   <table class="math-time math-time__table">
     <tr class="math-time__header-row">
-      <th>Math Time!</th>
+      <th></th>
       <th><input placeholder="Total Tip Amount ($)" id="total-tip"></input></th>
       <th>Hourly Tip Rate --></th>
       <th id="hourly">0</th>
     </tr>
-    <tr>
-      <td>ID</td>
+    <tr class="math-time__row" style="background-color: darkmagenta;height: 20px;">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="math-time__row">
+      <td></td>
       <td>Name (Optional)</td>
       <td>Hours Worked</td>
       <td>Payout</td>
     </tr>
-    <tr class="person" id="person-1">
+    <tr class="person math-time__row" id="person-1">
       <td>Person 1</td>
       <td><input class="name" placeholder="Person 1 Name (optional)"></input></td>
       <td><input class="hours" placeholder="Person 1 Hours Worked"></input></td>
       <td class="payout"></td>
     </tr>
-    <tr class="person" id="person-2">
+    <tr class="person math-time__row" id="person-2">
       <td>Person 2</td>
       <td><input class="name" placeholder="Person 2 Name (optional)"></input></td>
       <td><input class="hours" placeholder="Person 2 Hours Worked"></input></td>

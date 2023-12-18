@@ -1,5 +1,5 @@
 
-const PERSON_TEMPLATE = '<tr class="person" id="person-{id}"> \
+const PERSON_TEMPLATE = '<tr class="person math-time__row" id="person-{id}"> \
                             <td>Person {id}</td> \
                             <td><input class="name" placeholder="Person {id} Name (optional)"></input></td> \
                             <td><input class="hours" placeholder="Person {id} Hours Worked"></input></td> \
@@ -16,7 +16,6 @@ function update(e) {
     window.mathTime.update();
 }
 
-
 class Person {
     constructor(id) {
         this.name = "Person " + id;
@@ -29,19 +28,24 @@ class Person {
     }
 
     registerEvents() {
-        this.personRowElement.getElementsByClassName("hours")[0].addEventListener("change", update);
+        this.personRowElement.getElementsByClassName("hours")[0].addEventListener("input", update);
     }
 
     computeAndSetPayout(hourly) {
-        this.hours = this.personRowElement.getElementsByClassName("hours")[0].value;
-
+        let hoursEl = this.personRowElement.getElementsByClassName("hours")[0]
+        this.hours = hoursEl.value | 0;
         const payout = this.hours * hourly;
-
         this.setPayout(payout);
     }
 
     setPayout(payout) {
-        this.personRowElement.getElementsByClassName("payout")[0].innerHTML = Number(payout).toFixed(2);
+        let payoutEl = this.personRowElement.getElementsByClassName("payout")[0];
+        payoutEl.innerHTML = Number(payout).toFixed(2);
+
+        // update color based on hours worked.
+        // convert hours worked to a number between 150 and 255
+        let g = Math.max(150, 255-8*this.hours);
+        payoutEl.style.backgroundColor = "rgb(255, " + g + ", 255)";
     }
 }
 
@@ -59,7 +63,7 @@ class MathTime {
     }
 
     registerEvents() {
-        document.querySelector("#total-tip").addEventListener("change", update);
+        document.querySelector("#total-tip").addEventListener("input", update);
         document.getElementById("add-person").addEventListener("click", this.addPerson.bind(this));
     }
 
@@ -73,6 +77,10 @@ class MathTime {
         const totalHoursWorked = hoursElsArray
             .map(el => Number(el.value))
             .reduce((a, b) => a + b, 0);
+
+        if (totalHoursWorked <= 0) {
+            return;
+        }
 
         // compute hourly
         const hourly = this.totalTip / totalHoursWorked;

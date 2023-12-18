@@ -102,24 +102,27 @@
 
 /* math-time */
 
+
+
 .math-time {
 
   &__table {
-    border: 1px solid black;
-    font-size: 20pt;
-    max-height: 80%;
-    width: 100%;
+    font-size: 15pt;
+    max-height: 90%;
+    width: 90%;
+    margin: 0 5% 0 5%;
 
     input {
       line-height: 4;
       height: 100px;
       width: 100%;
     }
+  }
 
+  &__row {
     th, td {
       border: 1px solid black;
     }
-
   }
 
   &__header-row {
@@ -128,5 +131,13 @@
 
   .person {
     height: 100px;
+  }
+}
+
+
+// Overrides for wider pages
+@include mq-up(md) {
+  .math-time {
+    font-size: 20pt;
   }
 }
