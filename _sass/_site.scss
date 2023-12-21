@@ -1,8 +1,7 @@
 .site {
   margin-right: auto;
   margin-left: auto;
-  // Removed so that chess can be played on mobile device and board would fit on screen.
-  // padding: 0 $spacer;
+  padding: 0 $spacer;
   @include make-container();
 }
 

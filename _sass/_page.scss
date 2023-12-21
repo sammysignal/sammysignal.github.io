@@ -190,3 +190,17 @@ p.post-desc {
     margin: -1.2rem 1rem 0 2rem;
   }
 }
+
+// PAGE CHESS ====================================
+
+// Padding removed so that chess can be played on mobile device and board would fit on screen.
+.site-chess {
+  padding: unset;
+}
+
+// Return to normal padding for wide enough screen.
+@include mq-up(md) {
+  .site-chess {
+    padding: 0 $spacer2;
+  }
+}

@@ -5,7 +5,7 @@
 
   <body>
 
-    <div class="site">
+    <div class="site{% if page.title == 'Chess' %} site-chess{% endif %}">
 
       {% include header.html %}
 
