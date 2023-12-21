@@ -15,4 +15,4 @@ bundle exec jekyll serve
 
 ## Chess Algorithm
 
-[Play me in chess](https://pages.github.com/)! Code can be found [here](https://github.com/sammysignal/sammysignal.github.io/tree/master/assets/js/chess).
+[Play me in chess](https://sammysignal.github.io/chess)! Code can be found [here](https://github.com/sammysignal/sammysignal.github.io/tree/master/assets/js/chess).
