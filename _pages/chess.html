@@ -10,7 +10,6 @@ permalink: /chess/
 <!-- <script src="{{ site.baseurl }}/assets/js/chess/chess.min.js"></script> -->
 <script src="{{ site.baseurl }}/assets/js/chess/chess-old.js"></script>
 
-<!-- please don't hurt me, i'm lazy -->
 <div style="text-align: center;">
 <!--   <div id="board" style="width: 400px"></div> -->
 <!-- <script src="js/chess.js"></script>
@@ -28,4 +27,14 @@ permalink: /chess/
 <script src="{{ site.baseurl }}/assets/js/chess/getMove.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-confetti@3.0.0/tsparticles.preset.confetti.bundle.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/chess/player.js"></script>
+
+<!-- Prevent scrolling on mobile devices so that drag and drop pieces works correctly. -->
+<!-- https://stackoverflow.com/questions/7838680/detecting-that-the-browser-has-no-mouse-and-is-touch-only -->
+<script>
+  if(window.matchMedia("(any-hover: none)").matches) {
+    document.addEventListener('touchmove', function(e) {
+      e.preventDefault();
+    }, { passive:false });
+  }
+</script>
 
