@@ -1,19 +1,19 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
-@import "variables";        // Your Sass variables should go there
-@import "mixins";           // Your additional mixins should go there
+@import "variables"; // Your Sass variables should go there
+@import "mixins"; // Your additional mixins should go there
 
-@import "reboot";           // Opinionated reboot/normalize/reset css
+@import "reboot"; // Opinionated reboot/normalize/reset css
 
-@import "grid";             // A small grid css (no flex)
-@import "text";             // The type related css
+@import "grid"; // A small grid css (no flex)
+@import "text"; // The type related css
 
-@import "site";             // Styles specific to the site architecture
-@import "page";             // Styles specific to the pages
-
+@import "site"; // Styles specific to the site architecture
+@import "page"; // Styles specific to the pages
 
 /* Custom Styles */
 
@@ -21,14 +21,8 @@
   margin: auto;
 }
 
-/*
-*.site-nav {
-*  width: 30%;
-*}
-*/
-
 .site-logo:hover {
-  box-shadow: 0 0 6px #4072AF;
+  box-shadow: 0 0 6px #4072af;
   border-radius: 6px;
 }
 
@@ -37,7 +31,7 @@
 }
 
 .lead.pretty-links {
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .site-profile {
@@ -46,7 +40,7 @@
 }
 
 #asterisk {
-  color: #4072AF;
+  color: #4072af;
   text-decoration: none;
   background: none;
 }
@@ -62,7 +56,6 @@
 .music-item {
   height: 160px;
 }
-
 
 /* Devin Soundboard */
 
@@ -99,45 +92,97 @@
   display: none;
 }
 
-
 /* math-time */
 
-
-
 .math-time {
+  line-height: 1.0;
 
   &__table {
-    font-size: 15pt;
+    font-size: 17pt;
     max-height: 90%;
-    width: 90%;
-    margin: 0 5% 0 5%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 
-    input {
-      line-height: 4;
-      height: 100px;
-      width: 100%;
-    }
+  input, textarea {
+    border-color: rgb(240, 205, 255);
   }
 
   &__row {
-    th, td {
+    th,
+    td {
       border: 1px solid black;
     }
   }
 
   &__header-row {
     height: 100px;
+    text-align: right;
   }
 
-  .person {
+  #total-tip {
+    float:left;
+    height: 100px;
+    width: 100%;
+  }
+
+  #hourly {
+    text-align: left;
+  }
+
+  .name, .hours {
     height: 100px;
   }
-}
 
+  .name {
+    resize: none;
+    width: 100%;
+  }
+
+  .hours {
+    width: 100%;
+  }
+
+}
 
 // Overrides for wider pages
 @include mq-up(md) {
   .math-time {
-    font-size: 20pt;
+    font-size: 22pt;
+  }
+}
+
+
+#add-person {
+  /* CSS */
+  background-image: linear-gradient(92.88deg, #455eb5 9.16%, #5643cc 43.89%, #673fd7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#add-person:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+}
+
+@media (min-width: 768px) {
+  #add-person {
+    padding: 0 2.6rem;
   }
 }
