@@ -10,8 +10,8 @@ title: Math Time!
 	<link rel="stylesheet" href="/assets/css/main.css">
 	<script src="/assets/js/math-time.js"></script>
 </head>
-<body>
-  <div style="margin: 0 auto;max-width: 1000px;padding: 5%;">
+<body style="padding: 2%">
+  <div style="margin: 0 auto;max-width: 1000px;padding: 30px 2% 30px 2%">
     <h1 style='font-family: "Lora", sans-serif;'>Restaurant Server's Tip Calculator</h1>
     <p style='font-size: large;'>This application is deigned specifically for cases where a sum of money needs to be divided evenly to a group of employees where every person has the same hourly rate but they worked a different number of hours.</p>
     <p style='font-size: large;'>To use, simply enter the total amount of money, followed by the number of hours worked for each employee. The payouts on the right will be automatically generated.</p>
