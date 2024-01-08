@@ -11,8 +11,8 @@ layout: default
 
 <div style="font-size: 22px" class="lead pretty-links">
   Professional Software Engineer with 6+ years of experience building applications
-  for the web. I am currently working at LinkedIn as a Senior Software Engineer on the
-  Ads Serving team.
+  for the web. I just finished working at LinkedIn as a Senior Software Engineer on the
+  Ads Serving team and I am excited for new opportunities.
 </div>
 
   ---
