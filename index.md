@@ -10,15 +10,14 @@ layout: default
 </center>
 
 <div style="font-size: 22px" class="lead pretty-links">
-  Professional Software Engineer with 6+ years of experience building applications
-  for the web. I just finished working at LinkedIn as a Senior Software Engineer on the
-  Ads Serving team and I am excited for new opportunities.
+  Professional Software Engineer with 7+ years of experience building applications
+  for the web.
 </div>
 
   ---
 
 <div style="font-size: 20px;" class="lead pretty-links">
-  I am passionate about creating useful products and making the world more user-friendly. My most recent interests include a branch of Machine Learning called AutoML, as well as learning about the wide world of online advertising. In my free time I like to make music.
+  I am passionate about creating useful products and making the world more user-friendly. My most recent interests include building useful applications using LLMs. In my free time I like to make music.
 
   Thanks for stopping by!
 </div>
