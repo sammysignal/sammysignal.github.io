@@ -1,0 +1,25 @@
+# robots.txt for sameermehra.com
+
+User-agent: *
+Allow: /
+Allow: /startup-comp-calculator/
+Allow: /chess/
+Allow: /projects/
+Allow: /math-time/
+Allow: /about/
+Allow: /music/
+Allow: /to-rpi/
+Allow: /hot-ones/
+
+# Disallow any private or draft content
+Disallow: /_pages/
+Disallow: /_drafts/
+Disallow: /_posts/
+
+# Sitemap location
+Sitemap: https://sameermehra.com/sitemap.xml
+
+# Rules for GitHub Pages site
+User-agent: *
+Host: sammysignal.github.io
+Disallow: /
